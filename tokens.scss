@@ -1,4 +1,184 @@
+/* colors */
+Default
+fuKr2fSn-
+green
+Primary 300
+$green: #d4e276;
 
-复赛啊发动啊发fsafdsaf
-fdsafds 
-fsdaf懂啊发
+
+
+Default
+ivDFiEj4F
+lsit
+New Color 700
+$lsit: #2c8795;
+
+
+
+Default
+QnLLZz8nQ
+red
+Primary 300
+$red: #c91f0b;
+
+
+
+Default
+XAxCarcqf
+haha
+黑色
+$haha: #a0f800;
+
+
+
+/* fonts */
+$default-font: Roboto;
+$secondary-font: Arial;
+$noto-sans-sc-400: Noto Sans SC;
+$ping-fang-sc-400: PingFang SC;
+$ping-fang-sc-500: PingFang SC;
+/* text styles*/
+@mixin display-1() {
+  fontFamily : $default-font;
+  fontSize : 48px;
+  lineHeight: 57px;
+  letterSpacing : 0.1em;
+}
+@mixin display-2() {
+  fontFamily : $default-font;
+  fontSize : 40px;
+  lineHeight: 48px;
+  letterSpacing : 0.1em;
+}
+@mixin h-1() {
+  fontFamily : $default-font;
+  fontSize : 33px;
+  lineHeight: 40px;
+  letterSpacing : 0.1em;
+}
+@mixin h-2() {
+  fontFamily : $default-font;
+  fontSize : 28px;
+  lineHeight: 35px;
+  letterSpacing : 0.1em;
+}
+@mixin h-3() {
+  fontFamily : $default-font;
+  fontSize : 23px;
+  lineHeight: 29px;
+  letterSpacing : 0.1em;
+}
+@mixin h-4() {
+  fontFamily : $default-font;
+  fontSize : 19px;
+  lineHeight: 25px;
+  letterSpacing : 0.1em;
+}
+@mixin h-5() {
+  fontFamily : $default-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0.1em;
+}
+@mixin body() {
+  fontFamily : $default-font;
+  fontSize : 16px;
+  lineHeight: 22px;
+  letterSpacing : 0.1em;
+}
+@mixin small() {
+  fontFamily : $default-font;
+  fontSize : 13px;
+  lineHeight: 18px;
+  letterSpacing : 0.1em;
+}
+@mixin x-small() {
+  fontFamily : $default-font;
+  fontSize : 11px;
+  lineHeight: 16px;
+  letterSpacing : 0.1em;
+}
+@mixin ✗-h-3() {
+  fontFamily : $noto-sans-sc-400;
+  fontSize : 3px;
+  lineHeight: 117px;
+  letterSpacing : 0.1em;
+}
+@mixin x-small() {
+  fontFamily : $noto-sans-sc-400;
+  fontSize : 3px;
+  lineHeight: 15px;
+  letterSpacing : 0.1em;
+}
+@mixin ✗-h-4() {
+  fontFamily : $noto-sans-sc-400;
+  fontSize : 3px;
+  lineHeight: 73px;
+  letterSpacing : 0.1em;
+}
+@mixin display-1() {
+  fontFamily : $ping-fang-sc-400;
+  fontSize : 3px;
+  lineHeight: 6px;
+  letterSpacing : -0.02em;
+}
+@mixin h-5() {
+  fontFamily : $noto-sans-sc-400;
+  fontSize : 3px;
+  lineHeight: 37px;
+  letterSpacing : 0.49em;
+}
+@mixin h-1() {
+  fontFamily : $ping-fang-sc-500;
+  fontSize : 10px;
+  lineHeight: 14px;
+  letterSpacing : -0.02em;
+}
+@mixin body() {
+  fontFamily : $noto-sans-sc-400;
+  fontSize : 3px;
+  lineHeight: 5px;
+  letterSpacing : -0.02em;
+}
+/* SpacePatterns */
+$none: 0px;
+$xx-small: 2px;
+$x-small: 4px;
+$small: 8px;
+$regular: 16px;
+$large: 32px;
+$x-large: 64px;
+$xx-large: 128px;
+/* colors */
+Default
+fuKr2fSn-
+green
+Primary 300
+$green: #d4e276;
+
+
+
+Default
+ivDFiEj4F
+lsit
+New Color 700
+$lsit: #2c8795;
+
+
+
+Default
+QnLLZz8nQ
+red
+Primary 300
+$red: #c91f0b;
+
+
+
+Default
+XAxCarcqf
+haha
+黑色
+$haha: #a0f800;
+
+
+
