@@ -1,123 +1,43 @@
-/* fonts */
-$default-font: Roboto;
-$secondary-font: Arial;
-$noto-sans-sc-400: Noto Sans SC;
-$ping-fang-sc-400: PingFang SC;
-$ping-fang-sc-500: PingFang SC;
-/* text styles*/
-@mixin display-1() {
-  fontFamily : $default-font;
-  fontSize : 48px;
-  lineHeight: 57px;
-  letterSpacing : 0.1em;
-}
-@mixin display-2() {
-  fontFamily : $default-font;
-  fontSize : 40px;
-  lineHeight: 48px;
-  letterSpacing : 0.1em;
-}
-@mixin h-1() {
-  fontFamily : $default-font;
-  fontSize : 33px;
-  lineHeight: 40px;
-  letterSpacing : 0.1em;
-}
-@mixin h-2() {
-  fontFamily : $default-font;
-  fontSize : 28px;
-  lineHeight: 35px;
-  letterSpacing : 0.1em;
-}
-@mixin h-3() {
-  fontFamily : $default-font;
-  fontSize : 23px;
-  lineHeight: 29px;
-  letterSpacing : 0.1em;
-}
-@mixin h-4() {
-  fontFamily : $default-font;
-  fontSize : 19px;
-  lineHeight: 25px;
-  letterSpacing : 0.1em;
-}
-@mixin h-5() {
-  fontFamily : $default-font;
-  fontSize : 16px;
-  lineHeight: 22px;
-  letterSpacing : 0.1em;
-}
-@mixin body() {
-  fontFamily : $default-font;
-  fontSize : 16px;
-  lineHeight: 22px;
-  letterSpacing : 0.1em;
-}
-@mixin small() {
-  fontFamily : $default-font;
-  fontSize : 13px;
-  lineHeight: 18px;
-  letterSpacing : 0.1em;
-}
-@mixin x-small() {
-  fontFamily : $default-font;
-  fontSize : 11px;
-  lineHeight: 16px;
-  letterSpacing : 0.1em;
-}
-@mixin ✗-h-3() {
-  fontFamily : $noto-sans-sc-400;
-  fontSize : 3px;
-  lineHeight: 117px;
-  letterSpacing : 0.1em;
-}
-@mixin x-small() {
-  fontFamily : $noto-sans-sc-400;
-  fontSize : 3px;
-  lineHeight: 15px;
-  letterSpacing : 0.1em;
-}
-@mixin ✗-h-4() {
-  fontFamily : $noto-sans-sc-400;
-  fontSize : 3px;
-  lineHeight: 73px;
-  letterSpacing : 0.1em;
-}
-@mixin display-1() {
-  fontFamily : $ping-fang-sc-400;
-  fontSize : 3px;
-  lineHeight: 6px;
-  letterSpacing : -0.02em;
-}
-@mixin h-5() {
-  fontFamily : $noto-sans-sc-400;
-  fontSize : 3px;
-  lineHeight: 37px;
-  letterSpacing : 0.49em;
-}
-@mixin h-1() {
-  fontFamily : $ping-fang-sc-500;
-  fontSize : 10px;
-  lineHeight: 14px;
-  letterSpacing : -0.02em;
-}
-@mixin body() {
-  fontFamily : $noto-sans-sc-400;
-  fontSize : 3px;
-  lineHeight: 5px;
-  letterSpacing : -0.02em;
-}
-/* SpacePatterns */
-$none: 0px;
-$xx-small: 2px;
-$x-small: 4px;
-$small: 8px;
-$regular: 16px;
-$large: 32px;
-$x-large: 64px;
-$xx-large: 128px;
 /* colors */
-$green: #d4e276;
-$lsit: #2c8795;
-$red: #c91f0b;
-$haha: #a0f800;
+$primary-200: #e3eca3;
+$primary-300: #d4e276;
+$primary-400: #c5d74a;
+$primary: #abbe2c;
+$primary-600: #9aaa2c;
+$primary-700: #89972c;
+$primary-800: #79852a;
+$neutral: #585858;
+$neutral-600: #737373;
+$neutral-500: #8e8e8e;
+$neutral-400: #aaaaaa;
+$neutral-300: #c6c6c6;
+$neutral-200: #e2e2e2;
+$neutral-100: #ffffff;
+$neutral-800: #2c2c2c;
+$neutral-900: #000000;
+$new-color-400: #ffffff;
+$new-color-300: #ffffff;
+$new-color-600: #ffffff;
+$new-color-700: #2c8795;
+$new-color-800: #ffffff;
+$new-color-200: #c12121;
+$new-color: #b67d27;
+$new-color-400: #f2c37b;
+$new-color-300: #e2a343;
+$new-color-600: #7b5b2b;
+$new-color-700: #493b25;
+$primary-400: #9c1c0d;
+$primary-300: #c91f0b;
+$ff-40-ca: #7d96ac;
+$primary-600: #671f16;
+$111: #72180d;
+$黑色: #a0f800;
+$font-black: #a0f800;
+$new-color: #2d7584;
+$new-color-400: #6ed4ea;
+$new-color-600: #2a525b;
+$new-color-700: #213337;
+$new-color-300: #35b5cf;
+$new-color: #7162a2;
+$new-color-400: #bbacec;
+$new-color-600: #514d5e;
